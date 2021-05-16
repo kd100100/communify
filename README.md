@@ -2,7 +2,7 @@
 
 An All in one app where we can have complete smart service for university related to maintenance, parking, canteen orders, lost and found and many more.
 
-Checkout the demonstration here : 
+Checkout the demonstration here : https://www.youtube.com/watch?v=1RjEpiqIm9o
 
 Tech used:
   - React JS
