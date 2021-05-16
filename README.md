@@ -9,11 +9,11 @@ Abstract: Every College life comes with many problems, for some the solutions ar
 Checkout the demonstration here : https://www.youtube.com/watch?v=1RjEpiqIm9o
 
 Team Members:
-  -N Aravind
-  -Harshith P
-  -Keerthivasan D
-  -Manoah D
-  -Prince Immanuel J
+  - N Aravind
+  - Keertivasan D
+  - Manoah D
+  - Prince Immanuel J
+  - Harshit P
 
 Tech used:
   - React JS
