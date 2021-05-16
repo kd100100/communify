@@ -1,2 +1,2 @@
-# Communify Ap
+# Communify App
 
