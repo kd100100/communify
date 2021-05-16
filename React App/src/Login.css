@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.Login{
+    text-align: center;
+}
+.login__title p{
+    font-family: 'Comfortaa';
+    text-align: left;
+    margin-left: 25px;
+    padding-top: 80px;
+    margin-top: 0;
+    font-size: xx-large;
+}
+.image_container1
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 20px; */
+    margin-top: -20px;
+}
+.image_container1 img
+{
+    width:120px;
+    height:120px;
+}
+.university_name1 h2{
+    font-family: 'Comfortaa';
+    margin: 0;
+    margin-top: -10px;
+    font-weight: 600;
+}
+.inputfield > input{
+    font-family: 'Roboto';
+    width: 265px;
+    padding: 15px;
+    margin: 10px 0;
+    border: 0;
+    border: 2px solid black;
+    outline: 0;
+    border-radius: 4px;
+    font-weight: 500;
+}
+.inputfield11 > input{
+    font-family: 'Roboto';
+    width: 265px;
+    padding: 15px;
+    margin: 5px 0;
+    border: 0;
+    border: 2px solid black;
+    outline: 0;
+    border-radius: 4px;
+    font-weight: 500;
+}
+.inputfield1 > input{
+    margin-top: 45px;
+}
+.submit{
+    transition: 0.4s;
+    transition-timing-function: ease-in;
+    width: 300px;
+    padding: 12px;
+    font-size: 12px;
+    font-family: 'Roboto', cursive;
+    margin: 10px;
+    border-radius: 4px;
+    font-weight: 700;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid black;
+    color: white;
+}
+.submit11{
+    transition: 0.4s;
+    transition-timing-function: ease-in;
+    width: 300px;
+    padding: 12px;
+    font-size: 12px;
+    font-family: 'Roboto', cursive;
+    margin: 5px;
+    border-radius: 4px;
+    font-weight: 700;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid black;
+    color: white;
+}
+.submit1{
+    margin-top: 35px;
+}
+.submit:hover{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+}
+.backButton{
+    position: absolute;
+    left: 25px;
+    top: 35px;
+}

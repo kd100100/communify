@@ -1,0 +1,104 @@
+.home__logo{
+  padding-top: 40px;
+  width: 120px;
+}
+.home__title h3{
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+.home__address{
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+.home__address p{
+  margin: 7px;
+  font-size: x-small;
+font-weight: 600;
+}
+.home__address .univ{
+margin: 5px;
+font-size: medium;
+}
+.home__box{
+ display: flex;
+ /* width: 100%; */
+align-items: center;
+justify-content: space-between;
+margin: 0 7px;
+}
+
+.card-container {
+  width: 95px;
+  /* height: 95px; */
+  overflow: hidden;
+  /* box-shadow: 0px 0px 15px; */
+  transition: 0.5s;
+  margin: 7px;
+  background-color: #ECE3E3;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 20px 0;
+}
+
+
+.card-container img {
+  overflow: hidden;
+  height: 40px;
+}
+
+.home__card1{
+text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+
+.card-title h6{
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  margin: 0;
+  font-size: 8px;
+  text-decoration-style: none;
+}
+
+.home__temp{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  margin-left: 4.5%;
+}
+.home__tempDet{
+  text-align: left;
+  margin-left: 10px;
+  position: relative;
+  width:77%;
+}
+.home__tempDet h3{
+  margin: 10px 0 5px 0;
+}
+.home__tempDet h6{
+  margin: 5px 0;
+  position: absolute;
+  bottom: 0;
+  left:0;
+}
+.home__tempDet h2{ 
+  position: absolute;
+  top: 0;
+  right: 0%;
+  margin: 10px 0;
+}
+.home__tempDet button{
+  width: 60px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 0;
+  border-radius: 4px;
+}

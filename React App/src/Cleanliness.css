@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.clean{
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+.top__part img{
+    margin-top: 50px;
+    width: 50px;
+}
+.top__part h3{
+    margin-top: 10px;
+}
+.class__items .label{
+    width: 40%;
+    display: inline-block;
+    text-align: left;
+    font-size: large;
+}
+.class__items select{
+    width: 45%;
+    margin: 10px 0 10px 0;
+    font-family: 'Comfortaa', cursive;
+    border: 1px solid #DBDDE0;
+    padding: 10px 10px;
+    outline: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.class__items .trans__input{
+    width: 40%;
+    margin: 10px 0 10px 0;
+    font-family: 'Comfortaa', cursive;
+    border: 1px solid #DBDDE0;
+    padding: 10px 10px;
+    outline: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.class__items select option{
+    padding: 20px;
+}
+.class__items textarea{
+    width: 39%;
+    margin: 30px 0 30px 0;
+    font-family: 'Comfortaa', cursive;
+    border: 1px solid #DBDDE0;
+    padding: 10px 10px;
+    vertical-align: middle;
+    outline: 0;
+    border-radius: 10px;
+    min-height: 70px;
+    resize: none;
+    cursor: pointer;
+}
+.class__items input{
+    width: 39%;
+    margin: 10px 0;
+    font-family: 'Comfortaa', cursive;
+    border: 1px solid #DBDDE0;
+    padding: 10px 10px;
+    outline: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.uploadBtn{
+    width: 39.5%;
+    margin: 10px 0 10px 0;
+    font-family: 'Comfortaa', cursive;
+    border: 1px solid #DBDDE0;
+    padding: 10px 10px;
+    vertical-align: middle;
+    outline: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.class__items .submit{
+    width: 85%;
+    position: absolute;
+    bottom: 25px;
+    left: 47%;
+    transform: translateX(-50%);
+    padding: 10px;
+    outline: 0;
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Roboto';
+    border: 0;
+    cursor: pointer;
+}
+.class__items .submit1{
+    width: 50%;
+    padding: 10px;
+    outline: 0;
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Roboto';
+    border: 0;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.class__items .submit2{
+    position: fixed;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 86.5%;
+    padding: 15px;
+    outline: 0;
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Roboto';
+    border: 0;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.class__items .submit4{
+    width: 86.5%;
+    padding: 15px;
+    outline: 0;
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Roboto';
+    border: 0;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.parking__slots{
+    padding: 80px 0;
+}
+.trans__routes{
+    width: 87%;
+    border: 1px solid #DBDDE0;
+    border-radius: 10px;
+    margin: 15px auto;
+    height: 70px;
+    position: relative;
+}
+.trans__routeNumber{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+.trans__routeNumber h3{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.trans__routeName{
+    margin: 25px 0;
+    margin-left: 50px;
+    text-align: center;
+    color: black;
+}
+.food__cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 25px;
+}
+.food__card{
+    width: 140px;
+    border-radius: 4px;
+    border: 1px solid #DBDDE0;
+    position: relative;
+}
+.food__info{
+    position: absolute;
+    top: 108px;
+    right: 5px;
+    font-size: x-small;
+}
+.food__card img{
+    width: 140px;
+    height: 100px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.food__card h4{
+    text-align: left;
+    margin: 5px 0 5px 5px;
+}
+.food__btnGroup{
+    display: flex;
+    margin: 10px auto;
+}
+.food__qty{
+    padding: 3px 10px;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+.food__minus, .food__add{
+    background-color: black;
+    color: white;
+    padding: 3px 10px;
+    vertical-align: middle;
+}
+.food__minus{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.food__add{
+    padding-top: 5px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.food__card h5{
+    text-align: left;
+    margin: 7px 0 0 5px;
+}
+.cart__item{
+    display: flex;
+    margin: 0 20px;
+    position: relative;
+}
+.cart__item img{
+    width: 100px;
+    height: 75px;
+}
+.cart__itemDet h1{
+    margin-top: 5px;
+    font-size: x-large;
+    margin-left: -2px;
+    margin-bottom: 11px;
+}
+.cart__itemDet{
+    font-size: smaller;
+    text-align: left;
+    margin-left: 10px;
+}
+.cart__item h2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 0;
+}
+.hr{
+    margin: 20px;
+}
+.cart__total{
+    font-weight: 800;
+}
+.lf_btn_grp button{
+    margin: 15px 0 20px 0;
+    width: 100px;
+    padding: 10px 0;
+    /* border: 0; */
+}
+.lf_active{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.lf_notactive{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.lf_active1{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.lf_notactive1{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.found__item{
+    display: flex;
+    width: 85%;
+    margin: 10px auto;
+    border: 2px solid #DBDDE0;
+    border-radius: 10px;
+    height: 100px;
+    padding-right: 10px;
+}
+.found__item img{
+    width: 100px;
+    height: 100px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.found__item h4{
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 4px;
+    margin-top: 5px;
+}
+.found__item p{
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.found__plus{
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+.lost__item{
+    width: 85%;
+    margin: 10px auto;
+    border: 2px solid #DBDDE0;
+    border-radius: 10px;
+    height: 140px;
+    padding: 10px;
+    text-align: left;
+}
+.lost__item h4{
+    margin: 6px 0;
+    margin-top: 10px;
+}
+.lost__item p{
+    margin: 0;
+    margin-bottom: 3px;
+    font-size: small;
+}
+.order{
+    font-family: 'Comfortaa';
+    text-align: center;
+    padding-top: 40px;
+}
+.order h3{
+    /* width: 200px; */
+    padding-bottom: 10px;
+}
+.left__box{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.left__box p{
+    margin: 10px 0;
+}
+
+.library{
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+.library th, .library td{
+    width: 25%;
+    font-size: small;
+    padding: 5px 0;
+}
+.library .first{
+    width: 40%;
+}
+.library, .library th, .library td{
+    border: 1px solid black;
+}
+
+.found__item1{
+    display: flex;
+    width: 85%;
+    margin: 10px auto;
+    border: 2px solid #DBDDE0;
+    border-radius: 10px;
+    height: 120px;
+    padding-right: 10px;
+}
+.found__item1 img{
+    width: 120px;
+    height: 120px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.found__item1 h4{
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 4px;
+    margin-top: 5px;
+}
+.found__item1 p{
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.btn__main{
+    width: 80px;
+    margin-right: 5px;
+    border: 0;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid;
+    cursor: pointer;
+}
+.btn__main1{
+    background-color: black;
+    color: white;
+}
+.btn__main2{
+    background-color: white;
+    color: black;
+}
