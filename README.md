@@ -11,7 +11,7 @@ Tech used:
   - Tensorflow
   - Firebase
 
-ScreeShots of the app:
+Screenshots of the app:
 
 ![alt text](https://github.com/kd100100/communify/blob/main/React%20App/image_2021-05-16_09-56-40.png)
 
